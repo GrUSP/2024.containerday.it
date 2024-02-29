@@ -59,7 +59,7 @@ conference:
   geninfo_description: "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.
   </p><p>Docker, Kubernetes e le tecnologie di virtualizzazione hanno radicalmente cambiato il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti per poter gestire e far evolvere una infrastruttura IT moderna.
   </p><p><b>containerday 2024 si svolgerà a Bologna (ed online), Giovedì 10 Ottobre 2024.</b>
-  Il giorno seguente, nella stessa location, si svolgerà la conferenza dedicata al mondo <a href='https://2023.devsecopsday.it/'>DevSecOps.</a></p>"
+  Il giorno seguente, nella stessa location, si svolgerà la conferenza dedicata al mondo <a href='https://devsecopsday.it/'>DevSecOps.</a></p>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
