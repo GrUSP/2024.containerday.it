@@ -46,7 +46,7 @@ conference:
   update_link_url: "https://2024.devsecopsday.it/"
   update_link_label: "Scopri di più su devsecopsday"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: true
+  cfp_open: false
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "Call For Paper aperta!"
@@ -59,7 +59,7 @@ conference:
   geninfo_description: "<p>containerday è la principale conferenza italiana dedicata esclusivamente alle tecnologie di containerizzazione e virtualizzazione ed alle buone pratiche ad esse associate.
   </p><p>Docker, Kubernetes e le tecnologie di virtualizzazione hanno radicalmente cambiato il mondo delle infrastrutture IT. Alla conferenza saranno presentate le best practices, le tecnologie innovative e gli strumenti per poter gestire e far evolvere una infrastruttura IT moderna.
   </p><p><b>containerday 2024 si svolgerà a Bologna (ed online), Giovedì 10 Ottobre 2024.</b>
-  Il giorno seguente, nella stessa location, si svolgerà la conferenza dedicata al mondo <a href='https://devsecopsday.it/'>DevSecOps.</a></p>"
+  </p><p>Il giorno seguente, nella stessa venue, ci saranno altre due conferenze: <li>una dedicata alla sicurezza <a href='https://devsecopsday.it/'>e alle pratiche DevSecOps;</a></li> <li>e la prima conferenza italiana interamente dedicata alla sostenibilità del software: <a href='https://bettersoftware.it/'>Better Software - Sustainable IT.</a></p>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -128,7 +128,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmk6E2XFEv-tMfnFh4fJhEr"
+  youtube_playlist_id: "PLWK9j6ps_unnsa_fmB4lfSmQVjQIwbuQR&si=m9ongnCgdJYCm3WY"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiancontainerday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -141,8 +141,8 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
-  sponsor_title_home: "Sponsor"
+  sponsors_visible: true
+  sponsor_title_home: "containerday è possibile grazie al supporto di"
   # this is for the Community partners section in home page
   community_partners: true
   community_partners_title: "Community partner"
