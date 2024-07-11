@@ -1,35 +1,176 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
-schedule_under_construction_title: "Schedule under construction"
-schedule_under_construction_description: "We are still defining the schedule. Please be patient"
+generate_schedule_page: false
+schedule_under_construction_title: "scaletta in preparazione"
+schedule_under_construction_description: "stiamo preparando l'agenda della giornata"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
+speaker_1: &saratrappetti
+  speaker_in_speaker_lists: true
+  speaker_name: Sara  Trappetti
+  speaker_pic_filename: sara-trappetti.png
+  speaker_role: CNCF Ambassador & Head of Marketing @ SIGHUP
+  speaker_bio: "Ho iniziato il mio percorso nel Tech Marketing nel 2016 e sono
+    approdata al settore Cloud Native con SIGHUP. Per i primi sei mesi mi sono
+    sentita sopraffatta dalla vastità e dalla complessità delle tecnologie e del
+    settore, ma poi è successo qualcosa di straordinario: grazie alla mia
+    testardaggine e al paziente supporto dei miei colleghi, ho iniziato a
+    contribuire attivamente alla community Cloud Native. Ho scoperto un luogo
+    perfetto per esprimere le mie competenze aiutando gli altri, organizzando
+    eventi e supportando progetti - sono CNCF Ambassador, una degli
+    organizzatori del KCD Italy e del Kubernetes & Cloud Native Milano Meetup e
+    faccio parte del Glossary Italian Localization Group."
+  speaker_twitter_url: https://x.com/sara_trap90
+  speaker_github_url: https://github.com/SaraTrap
+  speaker_linkedin_url: https://www.linkedin.com/in/sara-trappetti/
+
+speaker_2: &michelmurabito
+  speaker_in_speaker_lists: true
+  speaker_name: Michel  Murabito
+  speaker_pic_filename: michel-murabito.png
+  speaker_role: CNCF Ambassador & Developer Advocate @ Mia-Platform
+  speaker_bio: Developer Advocate at Mia-Platform con oltre 18 anni di
+    esperienza nello sviluppo software. Come CNCF Ambassador, promuovo le
+    tecnologie cloud-native e temi legati alla Developer Experience, Platform
+    Engineering e Composability. Sono anche uno degli organizzatori del KCD
+    Italy. Tra il 2021 e il 2023, ho partecipato come speaker a numerosi eventi
+    italiani e internazionali, condividendo le mie conoscenze e la mia passione.
+    Gestisco un canale YouTube con oltre 2.800 iscritti e una community di più
+    di 800 membri, dove mi concentro sulla professione del developer.
+  speaker_twitter_url: https://x.com/michelmurabito
+  speaker_github_url: https://github.com/akelity
+  speaker_linkedin_url: https://www.linkedin.com/in/mich-murabito
+
+speaker_3: &danielemonti
+  speaker_in_speaker_lists: true
+  speaker_name: Daniele Monti
+  speaker_pic_filename: daniele-monti.png
+  speaker_role: Platform Engineer @ SparkFabrik
+  speaker_bio: Ho lavorato come sviluppatore per qualche anno, tenendo sempre a
+    mente anche l'aspetto infrastrutturale. Questo approccio mi ha sempre
+    stimolato nel voler approfondire e gestire le risorse cloud (e non) che
+    permettono l'esecuzione delle applicazioni. Oggi lo standard de facto per
+    l'orchestrazione delle applicazioni è Kubernetes, e penso che sarà il motore
+    per l'esecuzione di software nei prossimi anni, per questa ragione credo che
+    padroneggiare questo strumento permetta di ottenere il meglio offerto dalle
+    infrastrutture moderne.
   speaker_twitter_url: ""
-  speaker_instagram_url: ""
-  speaker_linkedin_url: ""
-  speaker_mastodon_url: ""
-  is_mc: false
+  speaker_github_url: https://github.com/Monska85
+  speaker_linkedin_url: https://www.linkedin.com/in/danielemonti1985
+
+speaker_4: &martinofornasa
+  speaker_in_speaker_lists: true
+  speaker_name: Martino Fornasa
+  speaker_pic_filename: martino-fornasa.png
+  speaker_role: Independent Consultant & Strategic Advisor | DevOps | Cloud Native | Trainer
+  speaker_bio: I am an independent consultant, helping companies to design and
+    implement an effective cloud-native strategy. I helped several companies
+    transform from traditional infrastructure to public or private cloud
+    implementation, using container and serverless approaches. I focus on
+    cloud-native implementations, scalability, continuous delivery practices,
+    resiliency, performance, and observability.
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/fornasa/
+
+speaker_5: &gabrielesantomaggio
+  speaker_in_speaker_lists: true
+  speaker_name: Gabriele Santomaggio
+  speaker_pic_filename: gabriele-santomaggio.png
+  speaker_role: Senior Member of Technical Staff @ Broadcom
+  speaker_bio: Developer, speaker, 99.9% open-source code. RabbitMQ team.
+  speaker_twitter_url: ""
+  speaker_github_url: https://github.com/Gsantomaggio/
+  speaker_linkedin_url: https://www.linkedin.com/in/santomaggio/
+
+speaker_6: &mattiamuraro
+  speaker_in_speaker_lists: true
+  speaker_name: "Mattia Muraro "
+  speaker_pic_filename: mattia-muraro.png
+  speaker_role: Cloud Solutions Architect @ Beta 80 Group
+  speaker_bio: Cloud Solutions Architect in Beta 80 Group per l'area Microsoft.
+    Appassionato di tecnologie Cloud, architetture distribuite e del mondo
+    Serverless.
+  speaker_twitter_url: https://x.com/mattia_muraro
+  speaker_github_url: https://github.com/mattiamuraro
+  speaker_linkedin_url: https://www.linkedin.com/in/mattia-muraro/
+
+speaker_7: &fabioalessandrolocati
+  speaker_in_speaker_lists: true
+  speaker_name: Fabio Alessandro Locati
+  speaker_pic_filename: fale-locati.png
+  speaker_role: EMEA Associate Principal Specialist Solutions Architect @ Red Hat
+  speaker_bio: Fabio Alessandro 'Fale' Locati è un EMEA Associate
+    Principal Specialist Solutions Architect presso Red Hat, relatore pubblico,
+    autore e contribuente all’Open Source. Le sue principali aree di competenza
+    sono Linux, l’automazione, la sicurezza e le tecnologie cloud. Fale ha
+    iniziato a lavorare nel settore IT nel 2004, permettendogli di ottenere
+    molti anni di esperienza, la maggior parte dei quali trascorsi in consulenza
+    per diverse aziende, tra cui decine di aziende Fortune 500. È autore dei
+    libri Practical Ansible, Practical Ansible 2, Learning Ansible 2, Learning
+    Ansible 2.7 e OpenStack Cloud Security. Nel tempo libero aiuta nelle
+    comunità Ansible, Fedora, Kubernetes e OpenStreetMap, nonché in molti
+    progetti più piccoli su GitHub e piattaforme simili.
+  speaker_twitter_url: ""
+  speaker_github_url: https://github.com/Fale
+  speaker_linkedin_url: https://www.linkedin.com/in/fale/
+
+speaker_8: &lucabarze
+  speaker_in_speaker_lists: true
+  speaker_name: Luca Barze
+  speaker_pic_filename: luca-barze.png
+  speaker_role: Solution Architect @ SUSE
+  speaker_bio: Luca lavora come Presales Engineer presso SUSE, dove mette a
+    disposizione la sua conoscenza dei sistemi IT, dei servizi cloud, e del
+    mondo cloud-native per supportare il processo di vendita. Con un background
+    in fisica e un forte interesse per le innovazioni tecnologiche, apprezza il
+    fatto di aiutare i clienti e la community a orientarsi tra le esigenze
+    tecnologiche. La sua esperienza spazia da ruoli di consulenza sul cloud,
+    all’architettura dei big data e all’innovazione IT.
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: https://www.linkedin.com/in/barze/
+
+speaker_9: &marcofranzon
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Franzon
+  speaker_pic_filename: marco-franzon.png
+  speaker_role: CTO @ Dualistic
+  speaker_bio: Ciao! Sono Marco Franzon e sono CTO di Dualistic, una startup che
+    desidera semplificare gli strumenti per la realizzazione di digital twins.
+    Svolgo il lavoro di Data Engineer ad eXact lab, azienda di consuleza con 10+
+    anni di esperienza nel campo HPC e sviluppo software. Infine sono un Docker
+    Captain e svolgo attività di divulgazione in ambito container declinato
+    all'utilizzo AI/ML.
+  speaker_twitter_url: https://x.com/mfranz_on
+  speaker_github_url: https://github.com/mfranzon
+  speaker_linkedin_url: https://www.linkedin.com/in/marco-franzon
+
+speaker_10: &serenasensini
+  speaker_in_speaker_lists: true
+  speaker_name: Serena Sensini
+  speaker_pic_filename: serena-sensini.png
+  speaker_role: MASTER OF CEREMONIES | Enterprise Architect @ Dedalus | Founder @ TheRedCode.it
+  speaker_bio:
+  speaker_twitter_url:
+  is_mc: true
+
 
 speakers:
-  speaker_1: *speaker
+  speaker_8: *lucabarze
+  speaker_4: *martinofornasa
+  speaker_9: *marcofranzon
+  speaker_7: *fabioalessandrolocati
+  speaker_3: *danielemonti
+  speaker_2: *michelmurabito
+  speaker_6: *mattiamuraro
+  speaker_5: *gabrielesantomaggio
+  speaker_1: *saratrappetti
+  speaker_10: *serenasensini
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -39,47 +180,196 @@ tracks:
 #   "other" -- altro; si inseriranno solo ora, titolo, descrizione facoltativa
 # NB tutti i "talk" devono avere una track. I "service" e i "keynote" dovrebbero avere track_1
 
+
 days:
   day_1:
-    date: 2020-09-16T09:00
-    title: "Day 1"
+    date: 2024-10-10T09:30+02:00
+    title: Day 1
     talks:
-      talk_1:
-        item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
-        item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
 
-      # talk
-      keynote:
-        item_type: "keynote"
+      check-in:
+        item_type: "service"
+        start_datetime: 2024-10-10T09:00+01:00
+        end_datetime: 2024-10-10T09:30+01:00
+        talk_title: "Check-in: prendi il tuo badge"
+      opening:
+        item_type: "service"
+        start_datetime: 2024-10-10T09:30+01:00
+        end_datetime: 2024-10-10T09:50+01:00
+        talk_title: "Intro by GrUSP"
+      lunch:
+        item_type: "service"
+        start_datetime: 2024-10-10T13:00+01:00
+        end_datetime: 2024-10-10T14:30+01:00
+        talk_title: "Pausa pranzo 🍴"
+        service_icon: "cutlery"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2024-10-10T11:10+01:00
+        end_datetime: 2024-10-10T11:40+01:00
+        talk_title: "Pausa caffè ☕️"
+        service_icon: "coffee"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2024-10-10T15:50+01:00
+        end_datetime: 2024-10-10T16:20+01:00
+        talk_title: "Pausa caffè ☕️"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2024-10-10T17:40+01:00
+        end_datetime: 2024-10-10T17:50+01:00
+        talk_title: "👋 Chiusura e saluti"
+
+      navigare-il-cncf-landscape:-un-pezzo-alla-volta-1:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: "Navigare il CNCF Landscape: Un pezzo alla volta"
+        talk_description: La Cloud Native Computing Foundation (CNCF) è il cuore
+          dell'innovazione cloud-native, promuove la diffusione della conoscenza
+          e lo sviluppo di tecnologie fondamentali come containerizzazione e
+          orchestrazione.Uno degli strumenti più utili e forse meno compresi
+          che ha creato per perseguire questi scopi è il CNCF Landscape,
+          essenziale per orientarsi nel vasto e dinamico ecosistema dei progetti
+          open source in ambito Cloud Native. Imparare a navigare il CNCF
+          Landscape è cruciale per chiunque voglia approcciarsi a queste
+          tecnologie, poiché offre una visione chiara delle tecnologie emergenti
+          e consolidate, ci aiuta ad acquisire le competenze necessarie per
+          prendere decisioni informate sui progetti da adottare e garantisce che
+          le soluzioni scelte siano sostenibili e supportate da una solida
+          community.In questo viaggio scopriremo come un progetto entra nel
+          Landscape, capiremo i gradi di maturità ed esploreremo come
+          contribuire efficacemente ai progetti CNCF, rafforzando la propria
+          posizione nel panorama tecnologico globale. Alla fine di questa
+          sessione, avrete a vostra disposizione strumenti pratici e consigli
+          operativi che diventeranno la vostra bussola per navigare con maggiore
+          consapevolezza, sicurezza e competenza l'ecosistema cloud-native, la
+          CNCF e il suo Landscape.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
-      titolotalk1:
-        item_type: "talk"
+          speaker_1: *saratrappetti
+          speaker_2: *michelmurabito
+      platformops-with-crossplane:-how-to-build-your-next-gen-kubernetes-based-platform-3:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: "PlatformOps with Crossplane: how to build your next-gen
+          Kubernetes-based platform"
+        talk_description: "Crossplane permette di estendere i cluster Kubernetes utilizzando le
+          CRD. Le CRD mappano l'infrastruttura o un servizio, garantendo che il
+          processo di creazione da parte dell'utente sia semplice come quello di
+          creazione delle risorse Kubernetes. Utilizzando una collezione di YAML
+          manifest, i team di sviluppo possono assemblare l'infrastruttura
+          necessaria per la proprio applicazione, rimuovendo dal team di
+          operations questo compito: questo è lo 'shift left'. Allo stesso
+          tempo, questo strumento di Infrastructure as Code offre un'astrazione
+          indipendente dal cloud provider, rendendo il self-provisioning
+          un'esperienza uniforme in ambienti multi-cloud. Tutto questo potere ha
+          un costo in termini di sicurezza, governance, carico cognitivo e
+          manutenzione. In questa presentazione vedremo come abbiamo adottato
+          Crossplane per creare una piattaforma full optional di
+          self-deployment."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
+          speaker_1: *danielemonti
+      l'introduzione-dei-log-in-opentelemetry:-caratteristiche-e-opportunita-4:
+        item_type: talk
+        track: *track_1
+        talk_title: "L'introduzione dei log in OpenTelemetry: Caratteristiche e
+          opportunità"
+        talk_description: Dopo metriche e tracce, i log sono entrati a far parte delle
+          funzionalità stabili di OpenTelemetry. In questo talk discuteremo i
+          vantaggi che possono derivare dall'adozione di OpenTelemetry per la
+          raccolta dei log, quali sono le differenze con i sistemi esistenti e
+          di come OpenTelemetry possa aiutare nell'adozione di un formato
+          strutturato per i log applicativi e infrastrutturali basato
+          sull'esperienza di Elastic Common Schema. Faremo inoltre il punto
+          sugli sforzi in atto per la creazione un linguaggio di query unificato
+          per i log e le metriche che superi l'estrema segmentazione del
+          mercato.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *martinofornasa
+      il-mio-primo-monitoring-con-ebpf-5:
+        item_type: talk
+        track: *track_1
+        talk_title: "Il mio primo monitoring con EBPF "
+        talk_description: Ma quanto è bello EBPF?!  Vediamo come creare il nostro primo sistema
+          di monitoring sfruttando questa fantastica feature di Linux. Partiamo
+          da zero e vediamo tutto il necessario per fare un setup / dev e infine
+          il deploy di un EBPF program.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *gabrielesantomaggio
+      aspire-come-sviluppare-e-dimenticarsi-i-container-6:
+        item_type: talk
+        track: *track_1
+        talk_title: ASPIRE come sviluppare e dimenticarsi i container
+        talk_description: Preparare un ambiente di sviluppo con i container è sempre abbastanza
+          complesso, almeno all'inizio del progetto. Con ASPIRE abbiamo la
+          possibilità di descrivere i nostri componenti e di 'dimenticarci'
+          delle connection string e le relazioni tra container.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *mattiamuraro
+      migliora-la-gestione-dei-container-con-event-driven-ansible-7:
+        item_type: talk
+        track: *track_1
+        talk_title: Migliora la gestione dei container con Event-Driven Ansible
+        talk_description: Dato che i container diventano sempre più popolari nelle applicazioni
+          moderne, gestirli in modo efficiente ed efficace diventa sempre più
+          cruciale. In questa sessione esploreremo come sfruttare la piattaforma
+          di automazione Ansible per gestire i container attraverso flussi di
+          lavoro basati su eventi. Discuteremo le sfide della gestione dei
+          container e dimostreremo come le funzionalità fornite da Event-Driven
+          Ansible possono semplificare attività quali l'implementazione, la
+          scalabilità e il monitoraggio dei container.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *fabioalessandrolocati
+      leaving-no-leaf-device-behind:-alla-frontiera-dell'edge-computing-con-akri-8:
+        item_type: talk
+        track: *track_1
+        talk_title: "Leaving no Leaf Device Behind: Alla Frontiera dell’Edge Computing con
+          Akri"
+        talk_description: Il far edge computing presenta sfide significative, come la gestione
+          della comunicazione, della sicurezza e la gestione delle risorse
+          periferiche (leaf devices), cruciali per le organizzazioni che mirano
+          a sfruttare le potenzialità dell’edge computing. In questa sessione,
+          esploreremo Akri, una soluzione cloud-native e progetto Sandbox della
+          CNCF, che facilita la scoperta e l’utilizzo dei dispositivi periferici
+          nei contesti di edge computing gestiti attraverso Kubernetes.
+          Discuteremo l’architettura, la funzionalità e l’estensibilità di Akri,
+          e presenteremo una dimostrazione pratica per illustrare l’applicazione
+          di Akri in uno scenario reale.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *lucabarze
+      containers:-the-last-opportunity-to-make-reproducible-ai-9:
+        item_type: talk
+        track: *track_1
+        talk_title: "Containers: the last opportunity to make reproducible AI"
+        talk_description: L'intelligenza artificiale è ovunque.  Le grandi aziende utilizzano
+          queste tecnologie per molti compiti, anche per scrivere codice o per
+          mantenere sicura la loro infrastruttura. Il primo step quindi per
+          utilizzare con consapevolezza strumenti basati su AI, avere ambienti
+          isolati e riproducibili fa la differenza tra il successo e il
+          fallimento.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *marcofranzon
