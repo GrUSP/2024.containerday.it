@@ -11,10 +11,14 @@ diamond:
     site_url: "https://sighup.io/"
 platinum:
   sponsor1:
+    name: "Aruba Cloud"
+    logo_filename: "aruba-cloud.svg"
+    site_url: "https://www.cloud.it/home.aspx"
+  sponsor2:
     name: "UMANA"
     logo_filename: "umana.png"
     site_url: "http://www.umana.it/"
-  sponsor2:
+  sponsor3:
     name: "SUSE"
     logo_filename: "suse.svg"
     site_url: "https://www.suse.com/"
@@ -42,6 +46,10 @@ bronze:
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
   sponsor2:
+    name: "Red Hat"
+    logo_filename: "redhat.svg"
+    site_url: "https://www.redhat.com/"
+  sponsor3:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
