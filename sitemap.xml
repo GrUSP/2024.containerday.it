@@ -9,14 +9,7 @@
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/workshop/workshop_2.html</loc>
-    
-    <lastmod>2024-07-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.containerday.it/schedule/index.html</loc>
+    <loc>https://2024.containerday.it/workshop/introduzione_kubernetes.html</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -30,14 +23,14 @@
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/tickets/index.html</loc>
+    <loc>https://2024.containerday.it/schedule/index.html</loc>
     
     <lastmod>2024-07-17</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/talks_speakers/index.html</loc>
+    <loc>https://2024.containerday.it/tickets/index.html</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -51,6 +44,13 @@
   </url>
   
   <url>
+    <loc>https://2024.containerday.it/talks_speakers/index.html</loc>
+    
+    <lastmod>2024-07-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.containerday.it/workshop/index.html</loc>
     
     <lastmod>2024-07-17</lastmod>
@@ -58,14 +58,7 @@
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/workshop/font_variabili.html</loc>
-    
-    <lastmod>2024-07-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.containerday.it/welcome/coc.html</loc>
+    <loc>https://2024.containerday.it/welcome/where.html</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -73,6 +66,13 @@
   
   <url>
     <loc>https://2024.containerday.it/welcome/cfp.html</loc>
+    
+    <lastmod>2024-07-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.containerday.it/welcome/coc.html</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -93,14 +93,7 @@
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/welcome/where.html</loc>
-    
-    <lastmod>2024-07-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.containerday.it/404.html</loc>
+    <loc>https://2024.containerday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2024-07-17</lastmod>
     
@@ -108,6 +101,13 @@
   
   <url>
     <loc>https://2024.containerday.it/2019/08/19/test/</loc>
+    
+    <lastmod>2024-07-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.containerday.it/404.html</loc>
     
     <lastmod>2024-07-17</lastmod>
     
