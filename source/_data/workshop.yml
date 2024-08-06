@@ -52,9 +52,9 @@ workshops:
     teacher_title: "Docenti"
     teachers:
       teacher_1:
-        teacher_name: "Federico Antoniazzi"
-        teacher_bio: "Federico è un giovane Solutions Engineer presso SIGHUP con un approccio pratico all’apprendimento. È sempre alla ricerca di nuovi modi per migliorare le sue competenze e condividere la sua conoscenza con gli altri. Nel tempo libero si dedica a tecnologie cloud-native, musica e stampa 3D."
-        pic_filename: Federico-Antoniazzi.png
+        teacher_name: "Ettore Ciarcia"
+        teacher_bio: "Ettore è un Solution Engineer presso SIGHUP. Ha iniziato la sua carriera come SysAdmin, per poi specializzarsi nel Cloud e approdare al mondo di Kubernetes. La lettera da Hogwarts non è mai arrivata, ha quindi ripiegato sull’informatica perché gli sembrava la cosa più vicina alla magia"
+        pic_filename: ettore-ciarcia.jpg
         teacher_role: "Solutions Engineer"
         teacher_org: "SIGHUP"
       teacher_2:
