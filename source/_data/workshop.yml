@@ -54,7 +54,7 @@ workshops:
       teacher_1:
         teacher_name: "Ettore Ciarcia"
         teacher_bio: "Ettore è un Solution Engineer presso SIGHUP. Ha iniziato la sua carriera come SysAdmin, per poi specializzarsi nel Cloud e approdare al mondo di Kubernetes. La lettera da Hogwarts non è mai arrivata, ha quindi ripiegato sull’informatica perché gli sembrava la cosa più vicina alla magia"
-        pic_filename: ettore-ciarcia.jpg
+        pic_filename: ettore-ciarcia.png
         teacher_role: "Solutions Engineer"
         teacher_org: "SIGHUP"
       teacher_2:
