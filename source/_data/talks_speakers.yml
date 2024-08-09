@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "scaletta in preparazione"
 schedule_under_construction_description: "stiamo preparando l'agenda della giornata"
 
@@ -145,7 +145,27 @@ speaker_9: &marcofranzon
   speaker_github_url: https://github.com/mfranzon
   speaker_linkedin_url: https://www.linkedin.com/in/marco-franzon
 
-speaker_10: &serenasensini
+speaker_10: &francescotorta
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco Torta
+  speaker_pic_filename: francesco-torta.png
+  speaker_role: Software Engineer @ ArubaKube
+  speaker_bio: "Dopo essermi laureato come ingegnere del software al Politecnico di Torino nel 2023, mi sono immerso immediatamente nella community dell'open source come maintainer del progetto Liqo. Attualmente, contribuisco con la mia esperienza e le mie conoscenze come membro del “Team Liqo” presso ArubaKube. Sono appassionato di sviluppo software e del mondo cloud-native. Sono costantemente alla ricerca di nuove tecnologie e soluzioni che portino innovazione in questo campo. Non vedo l'ora di condividere la mia esperienza e di incoraggiare gli altri a innovare ed esplorare nuove frontiere."
+  speaker_twitter_url:
+  speaker_github_url:
+  speaker_linkedin_url:
+
+speaker_11: &guidoricioppo
+  speaker_in_speaker_lists: true
+  speaker_name: Guido Ricioppo
+  speaker_pic_filename: guido-ricioppo.png
+  speaker_role: Software Developer @ Aruba Cloud
+  speaker_bio: "Dopo aver completato una laurea magistrale in Cloud e Computer Networks, mi sono specializzato in tecnologie di virtualizzazione a livello enterprise, lavorando per VMware come consulente per account strategici. Attualmente sono Software Engineer presso Aruba Cloud, dove mi occupo dello sviluppo e dell'integrazione di sistemi di observability per applicazioni cloud-native sulla piattaforma Kubernetes."
+  speaker_twitter_url:
+  speaker_github_url:
+  speaker_linkedin_url:
+
+speaker_12: &serenasensini
   speaker_in_speaker_lists: true
   speaker_name: Serena Sensini
   speaker_pic_filename: serena-sensini.png
@@ -156,16 +176,18 @@ speaker_10: &serenasensini
 
 
 speakers:
-  speaker_8: *lucabarze
-  speaker_4: *martinofornasa
-  speaker_9: *marcofranzon
-  speaker_7: *fabioalessandrolocati
-  speaker_3: *danielemonti
-  speaker_2: *michelmurabito
-  speaker_6: *mattiamuraro
-  speaker_5: *gabrielesantomaggio
-  speaker_1: *saratrappetti
-  speaker_10: *serenasensini
+  speaker_1: *lucabarze
+  speaker_2: *martinofornasa
+  speaker_3: *marcofranzon
+  speaker_4: *fabioalessandrolocati
+  speaker_5: *danielemonti
+  speaker_6: *michelmurabito
+  speaker_7: *mattiamuraro
+  speaker_8: *guidoricioppo
+  speaker_9: *gabrielesantomaggio
+  speaker_10: *francescotorta
+  speaker_11: *saratrappetti
+  speaker_12: *serenasensini
 
 tracks:
   track_1: &track_1
@@ -183,42 +205,42 @@ tracks:
 
 days:
   day_1:
-    date: 2024-10-10T09:30+02:00
+    date: 2024-10-10T09:20+02:00
     title: Day 1
     talks:
 
       check-in:
         item_type: "service"
-        start_datetime: 2024-10-10T09:00+01:00
-        end_datetime: 2024-10-10T09:30+01:00
+        start_datetime: 2024-10-10T09:00+02:00
+        end_datetime: 2024-10-10T09:25+02:00
         talk_title: "Check-in: prendi il tuo badge"
       opening:
         item_type: "service"
-        start_datetime: 2024-10-10T09:30+01:00
-        end_datetime: 2024-10-10T09:50+01:00
+        start_datetime: 2024-10-10T09:25+02:00
+        end_datetime: 2024-10-10T09:40+02:00
         talk_title: "Intro by GrUSP"
       lunch:
         item_type: "service"
-        start_datetime: 2024-10-10T13:00+01:00
-        end_datetime: 2024-10-10T14:30+01:00
+        start_datetime: 2024-10-10T12:50+02:00
+        end_datetime: 2024-10-10T14:15+02:00
         talk_title: "Pausa pranzo 🍴"
         service_icon: "cutlery"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2024-10-10T11:10+01:00
-        end_datetime: 2024-10-10T11:40+01:00
+        start_datetime: 2024-10-10T11:00+02:00
+        end_datetime: 2024-10-10T11:30+02:00
         talk_title: "Pausa caffè ☕️"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2024-10-10T15:50+01:00
-        end_datetime: 2024-10-10T16:20+01:00
+        start_datetime: 2024-10-10T15:50+02:00
+        end_datetime: 2024-10-10T16:20+02:00
         talk_title: "Pausa caffè ☕️"
         service_icon: "coffee"
       closing:
         item_type: "service"
-        start_datetime: 2024-10-10T17:40+01:00
-        end_datetime: 2024-10-10T17:50+01:00
+        start_datetime: 2024-10-10T17:40+02:00
+        end_datetime: 2024-10-10T17:50+02:00
         talk_title: "👋 Chiusura e saluti"
 
       navigare-il-cncf-landscape:-un-pezzo-alla-volta-1:
@@ -246,8 +268,8 @@ days:
           consapevolezza, sicurezza e competenza l'ecosistema cloud-native, la
           CNCF e il suo Landscape.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-10-10T09:40+02:00
+        end_datetime: 2024-10-10T10:20+02:00
         speakers:
           speaker_1: *saratrappetti
           speaker_2: *michelmurabito
@@ -271,8 +293,8 @@ days:
           Crossplane per creare una piattaforma full optional di
           self-deployment."
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: 2024-10-10T10:20+02:00
+        end_datetime: 2024-10-10T11:00+02:00
         speakers:
           speaker_1: *danielemonti
       l'introduzione-dei-log-in-opentelemetry:-caratteristiche-e-opportunita-4:
@@ -291,8 +313,8 @@ days:
           per i log e le metriche che superi l'estrema segmentazione del
           mercato.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-10-10T11:30+02:00"
+        end_datetime: "2024-10-10T12:10+02:00"
         speakers:
           speaker_1: *martinofornasa
       il-mio-primo-monitoring-con-ebpf-5:
@@ -304,10 +326,24 @@ days:
           da zero e vediamo tutto il necessario per fare un setup / dev e infine
           il deploy di un EBPF program.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-10-10T12:10+02:00"
+        end_datetime: "2024-10-10T12:50+02:00"
         speakers:
           speaker_1: *gabrielesantomaggio
+
+      Reimagine-the-Multi-Cluster:
+        item_type: talk
+        track: *track_1
+        talk_title: "Reimagine the Multi-Cluster"
+        talk_description: "La crescente necessità di applicazioni distribuite geograficamente in contesti eterogenei richiede la trasformazione del dato grezzo all'edge di un'infrastruttura, riducendo al minimo la trasmissione di dati sensibili. Il talk proposto introduce un approccio multi-cluster che permette di sfruttare al massimo le risorse periferiche, garantendo privacy, località del dato, efficienza computazionale e scalabilità. Illustreremo contestualmente come configurare, gestire e ottimizzare l'infrastruttura, assicurando che ogni cluster periferico possa ottimizzare l'utilizzo delle risorse locali minimizzando la trasmissione di dati sensibili."
+        talk_video_url: ""
+        start_datetime: "2024-10-10T14:15+02:00"
+        end_datetime: "2024-10-10T14:30+02:00"
+        speakers:
+          speaker_1: *francescotorta
+          speaker_2: *guidoricioppo
+
+
       aspire-come-sviluppare-e-dimenticarsi-i-container-6:
         item_type: talk
         track: *track_1
@@ -317,8 +353,8 @@ days:
           possibilità di descrivere i nostri componenti e di 'dimenticarci'
           delle connection string e le relazioni tra container.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-10-10T14:30+02:00"
+        end_datetime: "2024-10-10T15:10+02:00"
         speakers:
           speaker_1: *mattiamuraro
       migliora-la-gestione-dei-container-con-event-driven-ansible-7:
@@ -334,8 +370,8 @@ days:
           Ansible possono semplificare attività quali l'implementazione, la
           scalabilità e il monitoraggio dei container.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-10-10T15:10+02:00"
+        end_datetime: "2024-10-10T15:50+02:00"
         speakers:
           speaker_1: *fabioalessandrolocati
       leaving-no-leaf-device-behind:-alla-frontiera-dell'edge-computing-con-akri-8:
@@ -354,8 +390,8 @@ days:
           e presenteremo una dimostrazione pratica per illustrare l’applicazione
           di Akri in uno scenario reale.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-10-10T16:20+02:00"
+        end_datetime: "2024-10-10T17:00+02:00"
         speakers:
           speaker_1: *lucabarze
       containers:-the-last-opportunity-to-make-reproducible-ai-9:
@@ -369,7 +405,7 @@ days:
           isolati e riproducibili fa la differenza tra il successo e il
           fallimento.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-10-10T17:00+02:00"
+        end_datetime: "2024-10-10T17:40+02:00"
         speakers:
           speaker_1: *marcofranzon
