@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.containerday.it/workshop/workshop_2.html</loc>
+    <loc>https://2024.containerday.it/welcome/about.html</loc>
     
     <lastmod>2024-08-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/workshop/introduzione_kubernetes.html</loc>
+    <loc>https://2024.containerday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2024-08-09</lastmod>
     
@@ -30,14 +30,14 @@
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/tickets/index.html</loc>
+    <loc>https://2024.containerday.it/talks_speakers/index.html</loc>
     
     <lastmod>2024-08-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/talks_speakers/index.html</loc>
+    <loc>https://2024.containerday.it/tickets/index.html</loc>
     
     <lastmod>2024-08-09</lastmod>
     
@@ -58,21 +58,14 @@
   </url>
   
   <url>
+    <loc>https://2024.containerday.it/workshop/introduzione_kubernetes.html</loc>
+    
+    <lastmod>2024-08-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.containerday.it/welcome/cfp.html</loc>
-    
-    <lastmod>2024-08-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.containerday.it/welcome/safety.html</loc>
-    
-    <lastmod>2024-08-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.containerday.it/welcome/about.html</loc>
     
     <lastmod>2024-08-09</lastmod>
     
@@ -86,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://2024.containerday.it/welcome/scholarships.html</loc>
+    <loc>https://2024.containerday.it/welcome/safety.html</loc>
     
     <lastmod>2024-08-09</lastmod>
     
@@ -94,6 +87,13 @@
   
   <url>
     <loc>https://2024.containerday.it/welcome/where.html</loc>
+    
+    <lastmod>2024-08-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.containerday.it/welcome/scholarships.html</loc>
     
     <lastmod>2024-08-09</lastmod>
     
