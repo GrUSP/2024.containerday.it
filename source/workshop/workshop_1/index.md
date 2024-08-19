@@ -1,5 +1,5 @@
 ---
-title: Tipografia web e font variabili
+title: Introduzione a Kubernetes per Software Engineer/Developer
 date: 2020-04-21 09:27:00
 layout: workshop_single
 ws_id: introduzione_kubernetes
