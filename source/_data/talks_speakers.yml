@@ -152,8 +152,8 @@ speaker_10: &francescotorta
   speaker_role: Software Engineer @ ArubaKube
   speaker_bio: "Dopo essermi laureato come ingegnere del software al Politecnico di Torino nel 2023, mi sono immerso immediatamente nella community dell'open source come maintainer del progetto Liqo. Attualmente, contribuisco con la mia esperienza e le mie conoscenze come membro del “Team Liqo” presso ArubaKube. Sono appassionato di sviluppo software e del mondo cloud-native. Sono costantemente alla ricerca di nuove tecnologie e soluzioni che portino innovazione in questo campo. Non vedo l'ora di condividere la mia esperienza e di incoraggiare gli altri a innovare ed esplorare nuove frontiere."
   speaker_twitter_url:
-  speaker_github_url:
-  speaker_linkedin_url:
+  speaker_github_url: https://github.com/fra98
+  speaker_linkedin_url: https://www.linkedin.com/in/francesco-torta
 
 speaker_11: &guidoricioppo
   speaker_in_speaker_lists: true
@@ -162,8 +162,8 @@ speaker_11: &guidoricioppo
   speaker_role: Software Developer @ Aruba Cloud
   speaker_bio: "Dopo aver completato una laurea magistrale in Cloud e Computer Networks, mi sono specializzato in tecnologie di virtualizzazione a livello enterprise, lavorando per VMware come consulente per account strategici. Attualmente sono Software Engineer presso Aruba Cloud, dove mi occupo dello sviluppo e dell'integrazione di sistemi di observability per applicazioni cloud-native sulla piattaforma Kubernetes."
   speaker_twitter_url:
-  speaker_github_url:
-  speaker_linkedin_url:
+  speaker_github_url: https://github.com/guidonguido
+  speaker_linkedin_url: https://www.linkedin.com/in/guido-ricioppo/
 
 speaker_12: &serenasensini
   speaker_in_speaker_lists: true
