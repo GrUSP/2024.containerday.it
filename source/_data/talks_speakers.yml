@@ -116,7 +116,7 @@ speaker_7: &fabioalessandrolocati
 
 speaker_8: &lucabarze
   speaker_in_speaker_lists: true
-  speaker_name: Luca Barze
+  speaker_name: Luca Barzè
   speaker_pic_filename: luca-barze.png
   speaker_role: Solution Architect @ SUSE
   speaker_bio: Luca lavora come Presales Engineer presso SUSE, dove mette a
