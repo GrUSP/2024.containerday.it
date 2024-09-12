@@ -42,14 +42,22 @@ silver:
     site_url: "https://www.workwave.com/"
 bronze:
   sponsor1:
+    name: "Beta 80 Group"
+    logo_filename: "beta80.svg"
+    site_url: https://beta80group.it/
+  sponsor2:
+    name: "mia-Platform"
+    logo_filename: "miaplatform.svg"
+    site_url: https://mia-platform.eu/it/
+  sponsor3:
     name: "PostPickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
-  sponsor2:
+  sponsor4:
     name: "Red Hat"
     logo_filename: "redhat.svg"
     site_url: "https://www.redhat.com/"
-  sponsor3:
+  sponsor5:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
